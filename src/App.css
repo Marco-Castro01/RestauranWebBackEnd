@@ -1,0 +1,85 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+nav ul li button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+nav ul li button:hover {
+  background-color: #666;
+}
+
+.profile {
+  position: relative;
+}
+
+.profile .profile-box {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile .profile-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile .profile-box ul li {
+  margin-bottom: 5px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 100%;
+}
